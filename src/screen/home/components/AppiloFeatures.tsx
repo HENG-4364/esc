@@ -69,7 +69,7 @@ const AppiloFeatures: FC = () => {
           </section>
         </div>
       </section>
-      <section className="relative py-16 bg-gray-50">
+      <section className="relative py-16 bg-[#F7F7F7]">
         <div className="container mx-auto absolute -top-20 right-0 left-0">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {counters.map((counter) => (

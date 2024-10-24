@@ -11,6 +11,9 @@ import BusinessFeatures from "./components/features";
 import CRMPromotion from "./components/CRMPromotion";
 import CRMSalesTeam from "./components/CRMSalesTeam";
 import AppiloFeatures from "./components/AppiloFeatures";
+import TestimonialsSection from "./components/Testimonials";
+import BlogSection from "./components/NewsFeed";
+import NewsFeed from "./components/NewsFeed";
 
 const HomeScreen = () => {
   const words = `Integrated CRM, Project Management`;
@@ -67,6 +70,10 @@ const HomeScreen = () => {
       <CRMSalesTeam />
 
       <AppiloFeatures />
+
+      <TestimonialsSection/>
+
+      <NewsFeed/>
 
       {/* <OpenCeremonySection />
 
